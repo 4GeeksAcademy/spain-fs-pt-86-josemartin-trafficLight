@@ -1,12 +1,78 @@
+.trafficLightBackground{
+    background-image: url("https://cdn.pixabay.com/photo/2014/04/02/14/06/traffic-light-306154_640.png");
+    width: 79rem;
+    height: 40rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
-/* 
+.trafficLights{
+    padding-left: 36.1rem;
+    padding-top: 0px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.trafficLightsGreen{
+    padding-top: 2.05rem;
+    font-size: 9.3rem;
+    height: 11.8rem;
+}
 
-*/
+.trafficLightsYellow{
+    padding-top: 2rem;
+    font-size: 9.3rem;
+    height: 11.95rem;
+}
+
+.trafficLightsRed{
+    padding-top: 1.9695rem;
+    font-size: 9.3rem;
+    height: 11.9rem;
+}
+
+.button,
+.button *,
+.button :after,
+.button :before,
+.button:after,
+.button:before {
+    margin-left: 65rem;
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.button {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #eb0505;
+  background-image: none;
+  color: #000;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.5;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+  text-transform: uppercase;
+}
+.button:disabled {
+  cursor: default;
+}
+.button:-moz-focusring {
+  outline: auto;
+}
+
+.button [hidden] {
+  display: none;
+}
+.button {
+  border-radius: 99rem;
+  border-width: 2px;
+  padding: 0.8rem 3rem;
+}
+.button:hover {
+  color: #ffffff;
+  background-color: #15e826;
+  border: 2px solid black;
+}
